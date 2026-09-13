@@ -7,6 +7,12 @@ VariableSimples : contracts/5_VariableSimples.sol
 
  --- 
 ### Functions:
+### constructor
+
+```solidity
+constructor(uint256 _edad) public
+```
+
 ### cambiarEdad
 
 ```solidity
