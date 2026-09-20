@@ -2,7 +2,7 @@
 
 pragma solidity >=0.8.2 <0.9.0;
 
-contract VariableSimples {
+contract Intro {
     uint256 private edad; //por defecto toma el valor de 0
 
     constructor(uint256 _edad){ // se ejecuta una sola vez al deployar el contrato
