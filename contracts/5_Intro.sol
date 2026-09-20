@@ -17,9 +17,8 @@ contract Intro {
         return edad;
     }
 
-    function devolverEdadMasUno() public returns (uint256){
-        edad = edad + 1;
-        return edad;
+    function sumar(uint256 _valor1, uint256 _valor2) public pure returns(uint256){
+        return _valor1 + _valor2;
     }
 
 }
