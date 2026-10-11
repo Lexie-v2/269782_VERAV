@@ -33,4 +33,15 @@ contract ComplejosStruct {
         Alumno memory al = alumnos[_indice];
         return(al);
     }
+
+    function cambiarEdadAlumno(uint256 _codigo) public {
+        
+        for(uint i=0; i < alumnos.length; i++){
+            Alumno storage al = alumnos[i];
+
+            if(al.codigo == _codigo){
+                al.edad = al.edad +1;
+            }
+        }
+    }
 }
